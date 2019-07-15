@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Flask App updated"
+    return "Flask App updated  updated from git hub"
 
 @app.route("/hello/<string:name>/")
 def hello(name):
