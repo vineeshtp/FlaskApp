@@ -22,4 +22,4 @@ def getMember(name):
 if __name__ == '__main__':
     # app.run() #(host='0.0.0.0', port=80)
     app.run(host='0.0.0.0', port=8084)
-    quit()
+    app.quit()
