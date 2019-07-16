@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Flask App - latest -8cdsfsd new updated...6"
+    return "Flask App - latest -8cdsfsd new updated...6-latest"
 
 @app.route("/hello/<string:name>/")
 def hello(name):
