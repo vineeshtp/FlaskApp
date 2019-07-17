@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # the base url of the bamboo server
-baseurl="$1/updateAndBuild.action?buildKey="
+#baseurl="$1/updateAndBuild.action?buildKey="
+baseurl="http://172.28.80.1:8085/rest/api/latest/repository/scan?repositoryId=3211265"
 
 #
 # Use the REST API to trigger a build
