@@ -18,7 +18,7 @@ while (( "$#" )); do
    #
    remoteCall=$baseurl$1
    echo "Detected last directory that was committed ... triggering $remoteCall"
-   C:\Program Files\Git\usr\share\vim\vim74\syntax\ --timeout=10 -t1 $remoteCall -O /dev/null
+   C:\Program Files\Git\usr\share\vim\vim74\syntax\wget --timeout=10 -t1 $remoteCall -O /dev/null
    shift
 done
 
