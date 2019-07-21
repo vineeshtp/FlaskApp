@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Flask App..."
+    return "Flask App... rrrrr"
 
 @app.route("/hello/<string:name>/")
 def hello(name):
@@ -21,5 +21,5 @@ def getMember(name):
 
 if __name__ == '__main__':
     # app.run() #(host='0.0.0.0', port=80)
-    app.run(host='127.0.0.1', port=8084,debug=True)
+    app.run(host='172.29.80.1', port=8084,debug=True)
     app.quit()
