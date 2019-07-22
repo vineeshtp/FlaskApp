@@ -9,5 +9,6 @@ baseUrl = sys.argv[1]
 buildKey = sys.argv[2]
 
 remoteCall = baseUrl + "/api/rest/updateAndBuild.action?buildKey=" + buildKey
+echo remoteCall
 fileHandle = urllib.urlopen(remoteCall)
 fileHandle.close()
